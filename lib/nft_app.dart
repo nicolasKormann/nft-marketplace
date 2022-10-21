@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
+import 'package:nft/design_system/nft_colors.dart';
 import 'package:nft/design_system/nft_theme.dart';
 import 'package:nft/src/views/welcome_page.dart';
 import 'package:nft/src/views/login_screen.dart';
@@ -10,6 +12,7 @@ class NftApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle.light.copyWith(systemNavigationBarColor: NftColors.dark));
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'NFT Galery',
