@@ -1,3 +1,3 @@
-# NFT Wallet
+# NFT Marketplace
 
 
