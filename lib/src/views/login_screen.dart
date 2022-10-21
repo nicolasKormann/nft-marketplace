@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
-import 'package:nft/src/widgets/primary_button.dart';
 import 'package:nft/src/widgets/wallet_login.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -15,7 +14,7 @@ class LoginScreen extends StatelessWidget {
         ),
       ),
       body: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 48),
+        padding: const EdgeInsets.only(bottom: 24),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
